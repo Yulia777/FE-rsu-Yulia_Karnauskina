@@ -1,0 +1,58 @@
+#menu, #menu ul, #menu li {
+  margin: 0;
+  padding: 0;
+}
+#menu, #menu ul {
+  background: rgb(46,95,122);
+}
+#menu { 
+  position: relative;
+  display: table;
+  width: 100%;
+}
+#menu ul { 
+  position: absolute;
+  z-index: 5;
+  display: none;
+}
+#menu li:hover ul { 
+  display: block;
+}
+#menu li {
+  display: table-cell;
+  text-align: center;
+}
+#menu ul li {
+  display: block;
+  text-align: left;
+}
+#menu .right { 
+  direction: rtl;
+}
+#menu .right ul { 
+  right: 0;
+}
+#menu .right li { 
+  direction: ltr;
+}
+#menu a {
+  display: block;
+  padding: 3px 0;
+  color: #fff;
+  text-decoration: none;
+}
+#menu ul a {
+  padding: 3px 15px;
+}
+#menu li:hover {
+  background: rgb(96,145,172);
+}
+#pole{
+  width: 1330px;
+  height: 600px;
+  background-color: #DBD2DF;
+}
+#img{
+  padding: 0 0 0 330px;
+}
+

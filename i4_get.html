@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 4_4</title>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+</head>
+<body>
+  <h1>The Form</h1>
+    <form action="http://httpbin.org/get" method="get">
+	  <fieldset>
+	    <legend>Personal data</legend>
+		  <label>First name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="First name"/></label><br><br>
+		    <label>Middle name&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Middle name"/></label><br><br>
+		      <label>Surname name&nbsp;<input type="text" name="Surname name"/></label><br>
+		        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="radio" name="one" value="male" checked/>Male<br>
+		          <label>Sex</label><br>
+				    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="radio" name="one" value="female" checked/>Female<br><br>
+					  <label>Age&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Age"/></label><br><br>
+					    <label>Country&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Country"/></label><br><br>
+						  <label>City&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="checkbox" name="City" value="Ryazan">Ryazan
+                            <input type="checkbox" name="City" value="Moscow">Moscow<br><br>
+							   <label>Photography&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="file" name="file"></label>
+							     <hr>
+								      Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="Techologies[]" size="8" multiple>
+						              <option disabled>Techologies</option>
+                                      <option value="Web Master">Web Master</option>
+                                      <option value="DataBase Administrator">DataBase Administrator</option>
+                                      <option value="Computer-aided design">Computer-aided design</option>
+						              <option disabled>Finance</option>
+                                      <option value="Economic Planning">Economic Planning</option>
+                                      <option value="Management accounting">Management accounting</option>
+                                      <option value="Budgeting and planning">Budgeting and planning</option>
+                                         </select><br><br>
+						                    <label for="Salary">Salary&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+						                      <input id="Salary" type="range" min="0" max="120" value="30"><br><br>
+											    <textarea name="message" rows="10" cols="50">Tell us about yorself</textarea>
+	  </fieldset>
+	    <fieldset>
+		  <legend>Contact Information</legend>
+		    <label>Site&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Site"/></label><br><br>
+			  <label>E-mail&nbsp;&nbsp;<input type="text" name="E-mail"/></label><br><br>
+			    <label>Phone&nbsp;&nbsp;<input type="text" name="Phone"/></label><br>
+		</fieldset>
+		   <br>
+		   Password <input type="text" name="password"><br><br>
+		     <hr>
+               <input type="Submit"/>
+                 <input type="Reset"/>			   
+			 
+    </form>
+</body>
+</html>

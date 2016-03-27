@@ -2,7 +2,6 @@
 <html>
 <head>
 <title>Task4_1</title>
-  <link rel="stylesheet" href="s1.css">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
 <body>
@@ -14,7 +13,7 @@
     <li><a href="http://www.newsru.com/">News</a></li>
     <li><a href="https://mail.ru/">Mail</a></li>
   </ul>
-  <ol>
+  <ol start="7">
 	<li>Searching</li>
 	<li>Card</li>
 	<li>Market</li>
@@ -22,13 +21,13 @@
 	<li>Dictionaries</li>
 	<li>Pictures</li>
 	<li>Yet</li>
-  </ol>	
-  <ul id="list">
+  <ul type="circle">
     <li>Flights</li>
 	<li>Auto</li>
 	<li>Poster</li>
 	<li>Blogs</li>
-  </ul>  
+   </ol>
+   </ul>  
      <pre>
 Tag
      element of Hypertext Markup Language
@@ -129,11 +128,11 @@ Tag
                         Photography<input type="file" name="file">
                         <hr>
                           Title<select name="Techologies[]" size="8" multiple>
-						   <option disabled>Techologies</option>
+						   <optgroup label="Techologies">
                            <option value="Web Master">Web Master</option>
                            <option value="DataBase Administrator">DataBase Administrator</option>
                            <option value="Computer-aided design">Computer-aided design</option>
-						   <option disabled>Finance</option>
+						   <optgroup label="Finance">
                            <option value="Economic Planning">Economic Planning</option>
                            <option value="Management accounting">Management accounting</option>
                            <option value="Budgeting and planning">Budgeting and planning</option>
@@ -157,7 +156,7 @@ Tag
 				                <br><br>
 							   </fieldset>
 							   <br>
-							   Password <input type="text" name="password"><br><br>
+							   Password <input type="password" name="password"><br><br>
 								<input type="Submit"/>
                                  <input type="Reset"/>
 					</form>

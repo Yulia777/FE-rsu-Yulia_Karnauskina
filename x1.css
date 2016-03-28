@@ -1,0 +1,62 @@
+h5 {
+  background-color: #F7D48B;
+  width: 300px;
+  height: 110px;
+  margin: 20px;
+  padding: 20px;
+  font-variant: small-caps;
+  text-align: justify;
+}
+div {
+  height: 300px;
+  background-image: URL(6.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#op {
+  font-size: 72px;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+#po {
+  text-align: center;
+  background-color: #C6A085;
+  color: #EDE2DA;
+  font-style: oblique;
+  font-weight:600;
+  text-decoration: overline;
+}
+h1,h2 {
+  text-align: right;
+  font-family: sans-serif;
+  font-family: "qwe", "sdfsd", sans-serif;
+  text-decoration: line-through;
+  letter-spacing: 10px;
+} 
+#ik {
+  text-transform: lowercase;
+  line-height: 100px;
+}
+#ki {
+  text-transform: uppercase;
+  text-indent: 90px;
+}
+#ili {
+  direction:rtl;
+}
+#lii {
+   direction:ltr;
+}
+#ar {
+  vertical-align: super;
+      line-height: 40px;
+  text-shadow: 0 0 20px rgba(0, 120, 200, 1), 0 0 20px rgba(0, 120, 00, 1)
+}
+span {
+  vertical-align: super;
+}
+#pre {
+  white-space: pre-line;
+  word-spacing: 50px;
+}

@@ -104,16 +104,16 @@ Tag
 			   <form action="http://httpbin.org/get" method="get">
                  <fieldset>
                    <legend>Personal information:</legend>
-				   Surname <input type="text" name="surname">
+				   <label for="surname">Surname </label><input type="text" name="text" id="surname">
 				   <br><br>
-				   First name <input type="text" name="firstname">
+				   <label for="first name">First name </label><input type="text" name="firstname" id="first name">
 				   <br><br>
-				   Middle name <input type="text" name="middlename">
+				   <label for="middle name">Middle name</label><input type="text" name="middlename" id="middle name">
 				   <br><br>
 				   You are <input type="radio" name="one" value="male" checked>Male
 				           <input type="radio" name="one" value="female" checked>Female
 				    <br><br>
-					Age <input type="number" name="age" min="18" max="101">
+					<label for="age">Age</label><input type="number" name="age" id="age" min="18" max="101">
 					<br><br>
 					Country of Residence <select name="menu" size="1">
                                            <option value="first">Russia</option>
@@ -136,6 +136,8 @@ Tag
                            <option value="Economic Planning">Economic Planning</option>
                            <option value="Management accounting">Management accounting</option>
                            <option value="Budgeting and planning">Budgeting and planning</option>
+						   </optgroup>
+						   </optgroup>
                           </select>				
 						  <br><br>
 						  <label for="Salary">Salary</label>
@@ -148,15 +150,15 @@ Tag
 				 </fieldset>
 						     <fieldset>
                                <legend>Contact information:</legend>
-							     Site <input type="text" name="site">
+							     <label for="site">Site</label><input type="text" name="site" id="site">
 				                 <br><br>
-				                 Email <input type="text" name="email">
+				                 <label for="email">Email</label><input type="text" name="email" id="email">
 				                 <br><br>
-				                 Phone <input type="text" name="phone">
+				                 <label for="phone">Phone</label><input type="text" name="phone" id="phone">
 				                <br><br>
 							   </fieldset>
 							   <br>
-							   Password <input type="password" name="password"><br><br>
+							   <label for="password">Password</label><input type="password" name="password" id="password"><br><br>
 								<input type="Submit"/>
                                  <input type="Reset"/>
 					</form>

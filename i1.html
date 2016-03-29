@@ -110,8 +110,8 @@ Tag
 				   <br><br>
 				   <label for="middle name">Middle name</label><input type="text" name="middlename" id="middle name">
 				   <br><br>
-				   You are <input type="radio" name="one" value="male" checked>Male
-				           <input type="radio" name="one" value="female" checked>Female
+				   You are <input type="radio" name="one" value="male" id="male" checked><label for="male">Male</label>
+				           <input type="radio" name="one" value="female" id="female" checked><label for="female">Female</label>   
 				    <br><br>
 					<label for="age">Age</label><input type="number" name="age" id="age" min="18" max="101">
 					<br><br>
@@ -122,8 +122,8 @@ Tag
                                            <option value="fourth">China</option>
                                            </select>
 					<br><br>
-					City <input type="checkbox" name="City" value="Ryazan" checked>Ryazan
-                         <input type="checkbox" name="City" value="Moscow" checked>Moscow	
+					City <input type="checkbox" name="City" value="Ryazan" id="rzn" checked><label for="rzn">Ryazan</label>
+                         <input type="checkbox" name="City" value="Moscow" id="msc" checked><label for="msc">Moscow</label>	
                     <br><br>
                         Photography<input type="file" name="file">
                         <hr>
@@ -143,9 +143,7 @@ Tag
 						  <label for="Salary">Salary</label>
 						  <input id="Salary" type="range" min="0" max="120" value="30"><br>
 						  <br><br>
-						   <textarea name="message" rows="10" cols="30">
-                            Tell us about yorself...
-                           </textarea>
+						   <textarea name="textfield" cols="40" rows="10" placeholder="tell us about yourself..."></textarea><br><br>
 						   <br>
 				 </fieldset>
 						     <fieldset>

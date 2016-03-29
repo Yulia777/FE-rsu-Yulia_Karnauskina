@@ -7,23 +7,70 @@
 <body>
 <h1>Registration form</h1>
 <form action="http://httpbin.org/post" method="post">
-                 <fieldset>
-                   <legend>Personal data</legend>
-				     <label for="first name">First name <input type="text" name="Firt Name" id="first name"/></label>
-					 <p>
-					  <label for="surname">Surname&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Surname" id="surname"></label>
-				     </p>
-					   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="one" value="male" checked/>Male<br>
-					   <label>Sex</label><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
-				           <input type="radio" name="one" value="female" checked/>Female     
-				  </fieldset>
-				     <fieldset>
-                   <legend>Contact information</legend>
-				     <label for="site">Site &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Site" id="site"/></label><br><br>
-					 <label for="email">E-mail&nbsp;&nbsp;&nbsp;<input type="text" name="E-mail" id="email"/></label><br><br>
-				     <label for="phone">Phone&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Phone" id="phone"/></label><br><br>
-				      </fieldset><br>
-					     <input type="submit"/>
-</form>						 	     
+    <fieldset>
+      <legend>Personal information:</legend>
+      <table width="100%" cellspacing="0" cellpadding="2">
+      <tr>
+      <td align="right" width="100">
+        <label for="firstname">First name:</label>
+      </td>
+      <td>
+        <input type="text" name="firstname" id="firstname">
+      </td>
+      </tr>
+      <tr>
+      <td align="right">
+        <label for="surname">Surname:</label>
+      </td>
+      <td>
+        <input type="text" name="surname" id="surname">
+      </td>
+      </tr>
+      <tr>
+      <td align="right">
+        Sex:
+      </td>
+      <td>
+        <input type="radio" name="sex" value="male" id="male" checked><label for="male">Male</label>
+        <br>
+        <input type="radio" name="sex" value="female" id="female"><label for="female">Female</label>
+      </td>
+      </tr>
+      </table>
+    </fieldset>
+
+    <fieldset>
+      <legend>Contact Information:</legend>
+      <table width="100%" cellspacing="0" cellpadding="2">
+      <tr>
+      <td align="right" width="100">
+        <label for="site">Site:</label>
+      </td>
+      <td>
+        <input type="text" name="site" id="site">
+      </td>
+      </tr>
+      <tr>
+      <td align="right">
+        <label for="email">E-Mail:</label>
+      </td>
+      <td>
+        <input type="email" name="email" id="email">
+      </td>
+      </tr>
+      <tr>
+      <td align="right">
+        <label for="phone">Phone:</label>
+      </td>
+      <td>
+        <input type="text" name="phone" id="phone">
+      </td>
+      </tr>
+      </table>
+    </fieldset>
+	<br>
+    <input type="submit">
+  </form>
+
 </body>
 </html>

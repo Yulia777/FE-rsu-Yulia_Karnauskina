@@ -9,21 +9,68 @@
     <form action="http://httpbin.org/get" method="get">
 	  <fieldset>
 	    <legend>Personal data</legend>
-		  <label>First name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="First name"/></label><br><br>
-		    <label>Middle name&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Middle name"/></label><br><br>
-		      <label>Surname name&nbsp;<input type="text" name="Surname name"/></label><br>
-		        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				<input type="radio" name="one" value="male" checked/>Male<br>
-		          <label>Sex</label><br>
-				    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					<input type="radio" name="one" value="female" checked/>Female<br><br>
-					  <label>Age&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Age"/></label><br><br>
-					    <label>Country&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Country"/></label><br><br>
-						  <label>City&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="checkbox" name="City" value="Ryazan">Ryazan
-                            <input type="checkbox" name="City" value="Moscow">Moscow<br><br>
-							   <label>Photography&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="file" name="file"></label>
+		  <table width="100%" cellspacing="0" cellpadding="2">
+  <tr>
+  <td align="right" width="100">
+    <label for="surname">Surname:</label>
+  </td>
+  <td>
+    <input type="text" name="surname" id="surname">
+  </td>
+  </tr>
+  <tr>
+  <td align="right">
+    <label for="firstname">First name:</label>
+  </td>
+  <td>
+    <input type="text" name="firstname" id="firstname">
+  </td>
+  </tr>
+  <tr>
+  <td align="right">
+    <label for="middleame">Middle name:</label>
+  </td>
+  <td>
+    <input type="text" name="middleame" id="middleame">
+  </td>
+  </tr>
+  <tr>
+  <td align="right">
+    You are
+  </td>
+  <td>
+    <input type="radio" name="sex" id="male" value="male" checked><label for="male">Male</label> <br>
+    <input type="radio" name="sex" value="female" id="female"><label for="female">Female</label>
+  </td>
+  </tr>
+  <tr>
+  <td align="right">
+    <label for="country">Country</label>
+  <td>
+	<input type="text" name="Country"/></label>
+  </td>
+  </td>
+  <tr>
+  <td align="right">
+    City
+  </td>
+  <td>
+    <input type="checkbox" value="rzn" id="rzn" name="city"><label for="rzn">Ryazan</label> 	
+    <input type="checkbox" value="msc" name="city" id="msk"><label for="msk">Moscow</label>
+  </td>
+  </tr>
+   <tr>
+  <td align="right">
+    <label for="photo">Photography</label>
+  </td>
+  <td>
+    <input type="file" name="photo" id="photo">
+  </td>
+  </tr>
+  </tr>						   
+</table>
 							     <hr>
-								      Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="Techologies[]" size="8" multiple>
+								      Title<select name="Techologies[]" size="8" multiple>
 						               <optgroup label="Techologies">
                                          <option value="Web Master">Web Master</option>
                                             <option value="DataBase Administrator">DataBase Administrator</option>
@@ -33,15 +80,38 @@
                                                     <option value="Management accounting">Management accounting</option>
                                                       <option value="Budgeting and planning">Budgeting and planning</option>
                                      </select><br><br>
-						                    <label for="Salary">Salary&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+						                    <label for="Salary">Salary</label>
 						                      <input id="Salary" type="range" min="0" max="120" value="30"><br><br>
-											    <textarea name="message" rows="10" cols="50">Tell us about yorself</textarea>
+											    <textarea name="textfield" cols="40" rows="10" placeholder="tell us about yourself..."></textarea><br><br>
 	  </fieldset>
 	    <fieldset>
 		  <legend>Contact Information</legend>
-		    <label>Site&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Site"/></label><br><br>
-			  <label>E-mail&nbsp;&nbsp;<input type="text" name="E-mail"/></label><br><br>
-			    <label>Phone&nbsp;&nbsp;<input type="text" name="Phone"/></label><br>
+		    <table width="100%" cellspacing="0" cellpadding="2">
+    <tr>
+    <td align="right" width="100">
+      <label for="site">Site:</label>
+    </td>
+    <td>
+      <input type="text" id="site" name="site">
+    </td>
+    </tr>
+    <tr>
+    <td align="right">
+      <label for="email">Email:</label>
+    </td>
+    <td>
+      <input type="text" id="email" name="email">
+    </td>
+    </tr>
+    <tr>
+    <td align="right">
+      <label for="phone">Phone:</label>
+    </td>
+    <td>
+      <input type="text" id="phone" name="phone">
+    </td>
+    </tr>
+  </table>
 		</fieldset>
 		   <br>
 		   <label for="password">Password <input type="password" name="password" id="password"></label><br><br>

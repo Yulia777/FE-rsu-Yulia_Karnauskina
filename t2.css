@@ -1,0 +1,25 @@
+th {
+  font-size: 1.5em;
+  font-variant: small-caps;
+  font-family: Arial;
+  height: 20px;
+  width: 200px;
+}
+td{
+  height: 40px;
+  text-align: center;
+}
+.tab tr:nth-child(2n + 1){
+  background: #d3d8e5; 
+  border: 1px solid;
+  border-color: white;  
+  text-align: center;
+}
+.tab tr:hover {
+  background: rgba(96, 125, 139, 0.5);
+  cursor: pointer;
+}
+.one tr {
+  background-color: #dfe2ea;
+}
+

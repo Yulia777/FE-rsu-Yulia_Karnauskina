@@ -1,9 +1,9 @@
 th {
-  font-size: 1.5em;
+  font-size: 1.1em;
   font-variant: small-caps;
   font-family: Arial;
   height: 20px;
-  width: 200px;
+  width: 150px;
 }
 td{
   height: 40px;
@@ -20,6 +20,9 @@ table tr:hover {
   cursor: pointer;
 }
 tr {
-  background-color: #dfe2ea;
+  background-color: #e3edf0;
+}
+#z {
+  background-color: #d3d8e5;
 }
 

@@ -1,0 +1,16 @@
+.one {
+  width: 230px;
+  height: 80px;
+  margin: 20px 10px 20px 0.1px;
+  padding: 0.1px 10px 5px 10px;
+  background-color: #58a5a3;
+  color: #fff;
+}
+.two {
+  width: 230px;
+  height: 150px;
+  margin: 20px 10px 20px 0.1px;
+  padding: 10px 10px 5px 10px;
+  background-color: #d5e3e3;
+  text-align: justify;
+}

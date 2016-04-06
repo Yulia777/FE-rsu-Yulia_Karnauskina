@@ -1,0 +1,20 @@
+body {
+  margin: 200px;
+}
+a{
+  text-decoration: none;
+  background: #ded5e1;
+}
+a:after{
+  content: " | ";
+  color:red;
+}
+a:nth-child(3):after{
+  content:" ";
+}
+a:hover{
+  text-decoration: underline;
+}
+a:hover:after{
+  content:" ";
+}

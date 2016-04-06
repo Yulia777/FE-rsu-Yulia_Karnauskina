@@ -1,0 +1,72 @@
+body {
+ background: repeating-linear-gradient(45deg, #f6f6f6 0, #f6f6f6 5%, #fff 0, #fff 50%) 0 / 20px 20px;
+ text-align: center; 
+ font-family: OpenSans-CondLight;
+}
+h1 {
+  font-size: 2.5em;
+}
+@font-face {
+  font-family: OpenSans-CondLight;
+  src: url(Fonts/OpenSans-CondLight.ttf);
+  font-style: normal;
+  font-weight: normal;
+}  
+.container {
+	width: 50px;
+	margin: 32px auto;
+	width: 350px;
+}
+.container button{
+  width: 100px;
+  height: 100px;
+  color: #ffffff;
+  background-color: #3498db;
+  text-decoration: none;
+  font-size: 1.4em;
+  border: 2px #ffffff solid;
+  margin: 10px 0 0 10px;
+  transition: all 0.7s;
+}  
+h1:hover:after {
+  content: "by NobodyRocks ";
+  font-size: 0.5em;
+  font-style: italic;
+}
+h1:hover:before {
+  content: "some ";
+  font-size: 0.5em;
+  font-style: italic;
+}
+.h:hover {
+  background-color: #fff;
+  color: #3498db;
+} 
+.fa:hover {
+  opacity: 0;  
+}
+.b:hover {
+	transform: scale(2, 2);
+	opacity: 0;
+	border: 0;
+}
+.fo:hover {
+  border-width: 20px;
+  padding: 0;
+}
+.ro:hover {
+  transform: rotate(90deg);
+  border: 0;
+}
+.kn:hover {
+  height: 0;
+}
+.sh:hover {
+  transform: scale(0, 0);
+}
+.sq:hover {
+  transform: scale(2,0)
+}
+.de:hover {
+  transform: skew(45deg, 45deg);
+}

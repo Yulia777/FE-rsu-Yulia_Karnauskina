@@ -1,0 +1,50 @@
+.PageLoader {
+  width: 180px;
+  height: 100px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #bce3b8;
+  text-align: center;
+}
+#circleG{
+	width:146px;
+	margin:auto;
+}
+
+.circleG{
+	background-color:#7aa577;
+	float:left;
+	height:31px;
+	margin-left:20px;
+	width:31px;
+	animation-name:bounce_circleG;
+	animation-duration:2.24s;
+	animation-iteration-count:infinite;
+	animation-direction:normal;
+	border-radius:20px;
+}
+
+#circleG_1{
+	animation-delay:0.45s;
+}
+
+#circleG_2{
+	animation-delay:1.05s;
+}
+
+#circleG_3{
+	animation-delay:1.35s;
+}
+
+
+
+@keyframes bounce_circleG{
+	0%{}
+
+	50%{
+		background-color:rgb(0,0,0);
+	}
+
+	100%{}
+}
+

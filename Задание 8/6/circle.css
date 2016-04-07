@@ -1,24 +1,30 @@
 .table {
   width: 200px;
   height: 200px;
-  border: 1px solid green;
+  border: 1px solid grey;
 }
 .circle {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(45deg, green 75px, #3F51B5, #00BCD4 ,#009688);
-  border-radius: 50px;
-  margin: 50px;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle closest-side, #1fb68c 20px, #1fb68c 50px, white 31px);
+  margin: 0;
 }
 .button {
-  font: bold italic 110% serif;
+  font: bold normal 110% serif;
+  letter-spacing:2px;
   width: 200px;
   height: 50px;
-  background-image: linear-gradient(to top, #439a51, #f9d787);
-  border: 2px solid green;
-  border-radius: 10px;
+  background-image: linear-gradient(#899bc1, #3B5998, #899bc1);
+  border:4px double white;
+  border-radius: 20px;
+  color: white;
+}
+.button:after{
+	
+	/*border-radius: 10px;
+	border: 2px solid white;*/
 }
 .button:hover {
-  box-shadow: 0px 0px 54px 0px #6f77ea;
-  transition: 3s;
+  box-shadow: 0px 0px 58px 0px #6f77ea;
+  transition: 1.8s;
 }

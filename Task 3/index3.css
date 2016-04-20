@@ -1,0 +1,30 @@
+.block0 {
+	border-radius: 0 10px 10px 10px;
+	max-width: 417px;
+	background: #fff;
+	border: 1px solid #896E79;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 0 10px rgba(0,0,0,0.4); 
+
+}
+
+.caption {
+	position: relative;
+	width: 100px;
+	text-align: center;
+	border: 2px solid #896674;
+	border-radius: 10px 10px 0 0;
+	background-color: #997B87;
+	padding: 0 5px 0 0;
+	font-size: 1.1em;
+	font-family: Arial;
+	color: #896674;
+	z-index: 2;
+}
+
+.lorem {
+	padding: 15px;
+	background: #997B87;
+	color: #6D515C;
+}

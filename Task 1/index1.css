@@ -1,0 +1,48 @@
+.block0 {
+	border-radius: 5px 5px 5px 5px;
+	max-width: 417px;
+	background: #fff;
+	border: 2px solid #8bd8bf;
+	position: relative;
+	overflow: hidden;
+}
+
+.block1 {
+	border: 9px solid #ABFFE3;
+	position: static;
+	width: 400px;
+}
+
+.block2 {
+	max-width: 396px;
+	background: #fff;
+	border: 2px solid #8bd8bf;
+	position: relative;
+	overflow: hidden;
+}
+
+.header {
+	background-color: #e3c71c;
+	padding: 5px 0 0 15px;
+	font-size: 1.4em;
+	font-family: Arial;
+	
+}
+
+.lorem {
+	padding: 15px;
+	color: #8bd8bf;
+}
+
+.lorem::after{
+	content: "";
+	position: absolute;
+	top: 31px;
+	left: 15px;
+	border: 13px solid transparent;
+	border-top-width: 13px;
+	border-bottom-width: 8px;
+	border-top-color: #e3c71c;
+	width: 0;
+	height: 0;
+}

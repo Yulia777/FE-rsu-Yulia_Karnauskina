@@ -1,0 +1,82 @@
+.block{
+	width: 490px;
+}
+.box{
+	width: 155px;
+	position: relative;
+}
+.float_box{
+	float: left;
+}
+.inline_box {
+	display: inline-block;
+}
+.box img{
+	width: 110px;
+	height: 130px;
+	border: 10px solid white;
+	outline: 1px solid #666;
+	display: block;
+	margin: 5px 12px 6px 12px;
+}
+.flex_block{
+	display: flex;
+	flex-flow: row wrap;
+	align-content: space-between;
+}
+.flex_box {
+	position: relative;
+	display: flex;
+	flex-flow: row wrap;
+}
+.button1{
+	height: 30px;
+	background-color: #f0f0f1;
+	border: 1px solid #666;
+	border-radius: 3px;
+	color: #666;
+	font-size: 0.7em;
+}
+.button2 {
+	width: 78px;
+	height: 30px;
+	background-color: #f0f0f1;
+	border: 1px solid #666;
+	border-radius: 3px;
+	color: #666;
+	font-size: 0.7em;
+}
+.button1{
+	margin: 0 4px 0 10px;
+}
+.button1:hover {
+	background-color: #99999a;
+} 
+.button2:hover {
+	background-color: #99999a;
+}
+.text{
+	width: 110px;
+	height: 130px;
+	text-align: center;
+	padding: 47px 15px 25px;
+	position: absolute;
+	top: 15px;
+	left: 22px;
+	background-color: rgba(63,62,68,0.4);
+	font-size: 0.7em;
+	color: white;
+	display: table;
+	vertical-align: bottom;
+	box-sizing: border-box;
+	opacity: 0;
+}
+.t1 {
+	color: grey;
+}
+.t2 {
+	color: #01aba8;
+}
+.text:hover{
+	opacity: 1;
+}

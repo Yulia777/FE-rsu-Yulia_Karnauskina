@@ -1,0 +1,103 @@
+html,body{
+	margin: 0;
+	padding: 0;
+}
+body{
+	display: flex;
+	justify-content: center;
+}
+main{
+	width: 27.0em;
+	height: 29em;	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	position: relative;	
+	font-family: Comic_font, Arial, sans-serif;
+	color: #555;
+}
+main> header{
+	text-align: center;
+	padding: 0.1em 0 0.1em; 
+	font-size: 2.5em;	
+}
+
+.toDoList{
+	height: 20.0em;
+	overflow-y: scroll;
+	background: url(1.jpg);
+}
+
+.toDoList ul{
+	list-style: none;
+	padding-top: 	2.1em;
+	padding-left: 0.9em;
+	padding-bottom: 2em;
+	margin-top: 0;
+	font-size: 1.3em;	
+}
+
+.button{
+	height: 2.0em;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	font-family: Comic_font, Arial, sans-serif;
+}
+#toDoName{
+	width: 75%;
+	font-family: Comic_font, Arial, sans-serif;
+	font-size: 1.6em;
+	border-radius: 0.2em;
+	border: 1px solid #777;
+}
+#toDoSubmit{
+	width: 27%;
+	font-family: Comic_font, Arial, sans-serif;
+	font-size: 1.2em;
+	vertical-align: middle;
+	line-height: 1;
+	border-radius: 0.4em;
+	border: 1px solid #bbb;
+	background-color: white;
+	color: #555;
+}
+.confirm{
+	position: absolute;
+	width: 25.0em;
+	height: 7.9em;
+	background-color: #fff;
+	top: 19.4em;
+	left: 1em;
+	text-align: center;
+	border: 2px solid #444;
+	border-radius: 0.4em;
+	visibility: hidden;
+}
+.confirm header{
+	font-size: 1.9em;
+	border-bottom: 2px solid #bbb;
+}
+.confirm article{
+	padding-top: 0.5em;
+	padding-bottom: 1.0em;
+}
+div{
+	padding-bottom: 1.0em;
+}
+div button{
+	width: 4.0em;	
+	height: 1.4em;
+	background-color: #fff;
+	border: 1px;
+	border-radius: 0.4em;
+	border: 1px solid #bbb;
+	font-family: Comic_font, Arial, sans-serif;
+	font-size: 1.0em;
+	line-height: 0.8;
+	color: #555;
+}
+@font-face{
+	font-family: Comic_font;
+	src: url(Comic_font.ttf);
+}

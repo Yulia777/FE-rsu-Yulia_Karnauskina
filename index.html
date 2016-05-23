@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task 17</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<main>
+		<header>ToDo List</header>
+		<section class="toDoList">
+			<ul id="listItems">
+				<li><input type="checkbox" id="checkBox0" value="0" checked><label for="checkBox0">ToDO Item 1</label></li>
+				<li><input type="checkbox" id="checkBox1" value="1" checked><label for="checkBox1">ToDO Item 1</label></li>
+				<li><input type="checkbox" id="checkBox2" value="2" checked><label for="checkBox2">ToDO Item 1</label></li>
+				<li><input type="checkbox" id="checkBox3" value="3" checked><label for="checkBox3">ToDO Item 1</label></li>
+				<li><input type="checkbox" id="checkBox4" value="4" checked><label for="checkBox4">ToDO Item 1</label></li>
+			</ul>
+		</section>
+		<section class="confirm" id="confirm">
+			<header>Are you sure?</header>
+			<article>	Are you sure you want to add new ToDO item: <span id="todoItem"></span>?</article>
+			<div>
+				<button class="btnYes" id="btnYes">Yes</button>
+				<button class="btnNo" id="btnNo">No</button>
+			</div>
+		</section>
+		<section class="button">
+			<input type="text" id="toDoName" value="" placeholder="ToDO Text">
+			<button id="toDoSubmit">Add</button>
+		</section>
+	</main>
+	<script type="text/javascript" src="js.js"></script>
+</body>
+</html>

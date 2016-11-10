@@ -1,0 +1,119 @@
+.content__img {
+  height: 14.5em;
+  width: 40.13em;
+}
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 3.13em;
+  text-align: justify;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.content__title {
+  font-family: "Josefin Sans";
+  margin: 0.63em 0 0.63em 0;
+}
+.content__links {
+  text-decoration: none;
+  text-transform: none;
+  color: #69747c;
+}
+.content__links:hover {
+  color: #999999;
+}
+.main {
+  width: 40em;
+}
+.content {
+  width: 100%;
+}
+.line {
+  border-top: 0.06em solid #e2e5e8;
+  border-bottom: 0.06em solid #e2e5e8;
+  height: 2.25em;
+}
+.line__icon-left {
+  fill: #a2aab2;
+  width: 1.0em;
+  height: 1.3em;
+}
+.line__list {
+  display: inline-flex;
+  list-style-type: none;
+  margin: -1em 2.3em 0 -2.5em;
+  text-align: center;
+}
+.line__data {
+  padding-top: -3em;
+}
+.line__list-right {
+  display: inline-flex;
+  list-style-type: none;
+  margin-left: 1.9em;
+}
+.cube__icon-right {
+  fill: #ffffff;
+  width: 1.5em;
+  height: 1.5em;
+}
+.text {
+  color: grey;
+  margin: 0.1em 0;
+  vertical-align: 0.44em;
+}
+.text--post_inform {
+  padding: 0 1em 0 0;
+}
+.text--side {
+  padding: 0 0 1.25em 0;
+}
+.dowload {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 4em;
+}
+.line__link {
+  text-decoration: none;
+  text-transform: none;
+  color: #69747c;
+  vertical-align: 0.46em;
+}
+.line__link:hover {
+  color: #999999;
+}
+.cube {
+  display: inline-block;
+  background-color: #d1dae3;
+  height: 1.5em;
+  position: relative;
+  margin-top: -2.6em;
+  border-radius: 0.19em;
+  margin-left: 0.25em;
+}
+.cube__message {
+  text-decoration: none;
+  text-transform: none;
+  color: #ffffff;
+  margin: 0 0.38em 0 0.5em;
+  vertical-align: 0.25em;
+}
+.cube__message:hover {
+  color: #69747c;
+}
+.social__link {
+  display: none;
+}
+.content__paragraph {
+  width: 100%;
+}

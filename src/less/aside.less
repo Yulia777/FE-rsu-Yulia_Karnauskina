@@ -1,0 +1,94 @@
+.aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: /*-0.63em*/2.2em 0 0 1.88em;
+  width: 16em;
+  text-align: justify;
+}
+.footnote{
+  width: 100%;
+}
+.footnote__title {
+  font-family: "Josefin Sans";
+  font-size: 1.19em;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #6b9ad0;
+  border-bottom: 0.31em solid #6794b7;
+}
+.footnote__symbol {
+  color: #ffffff;
+  background-color: #6794b7;
+  margin-right: 0.94em;
+  width: 3.13em;
+  height: 9.38em;
+  font-size: 1.25em;
+  text-align: center;
+  padding: 0.22em 0.58em 0 0.74em;
+  &:before {
+    color: white;
+    background-color: #6794b7;
+    font-size: 1.25em;
+    text-align: center;
+    padding: 0.06em 0.63em;
+  }
+}
+.label__item{
+  display: inline-flex;
+  color: #ffffff;
+  background-color: #6794b7;
+  height: 1.25em;
+  width: 3.13em;
+  position: relative;
+  margin-right: 1.13em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  margin-top: 0.38em;
+  &:before{
+    content: "";
+    position: absolute;
+    right: -1.54em;
+    border: 0.63em solid transparent;
+    border-left: 0.94em solid #6794b7;
+  }
+}
+.label__icon{
+  position: absolute;
+  height: 0.5em;
+  width: 0.5em;
+  border-radius: 1em;
+  background-color: #ffffff;
+  margin-left: 3.8em;
+  margin-top: 0.4em;
+}
+.label{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.label__list{
+  display: flex;
+  list-style-type: none;
+  margin: -1em 0 0 -2.5em;
+  padding-top: 1em;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.label__link {
+  text-decoration: none;
+  text-transform: none;
+  color: #ffffff;
+  &:hover {
+    color: #c6defa;
+  }
+}

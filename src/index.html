@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="App">
+<head>
+    <meta charset="UTF-8">
+    <title>New tab</title>
+</head>
+<body>
+<header role="banner" class="header">
+    <h1 aria-hidden="true" hidden>Raccon blog</h1>
+    racco
+    <svg role="img" class="header__logo"><use xlink:href="./sprite.svg#icon-racoon-negative"></use></svg>nblog
+</header>
+<nav role="navigation" class="navigation">
+    <ul class="navigation__list">
+        <li class="navigation__item"><a class="navigation__href" href="/#/">javascript</a></li>
+        <li class="navigation__item"><a class="navigation__href" href="/#/">css</a></li>
+        <li class="navigation__item"><a class="navigation__href" href="/#/">latest</a></li>
+        <li class="navigation__item"><a class="navigation__href" href="/#/">html</a></li>
+        <li class="navigation__item"><a class="navigation__href" href="/#/">design</a></li>
+    </ul>
+    <span class="navigation__triangle"></span>
+    <span class="navigation__triangle-down"></span>
+</nav>
+<div class="container1" ng-view>
+
+</div>
+</body>
+</html>

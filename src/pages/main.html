@@ -1,0 +1,20 @@
+<div class="container">
+    <main role="main" class="main">
+        <article class="content">
+            <a href="/#/add" type="link" class="content__add-button">Add post</a>
+            <input ng-model="$ctrl.searchText" class="search__field" type="text"  placeholder="Search...">
+        </article>
+        <my-post ng-repeat="post in $ctrl.posts | filter:$ctrl.searchText | orderBy : '-date'" post="post"></my-post>
+        <article class="dowload">
+            <img src="1.png" alt="picture">
+        </article>
+    </main>
+    <div role="complementary" class="aside">
+    <my-aside ng-repeat="note in $ctrl.notes"  note='note'>
+    </my-aside>
+        <div class="label">
+            <my-tag ng-repeat="tag in $ctrl.tags"  tag='tag'></my-tag>
+        </div>
+
+    </div>
+</div>

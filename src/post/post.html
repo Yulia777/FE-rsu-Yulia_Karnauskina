@@ -1,0 +1,23 @@
+<article class="content">
+    <img ng-src="{{$ctrl.post.img}}" class="content__img">
+    <h2 class="content__title"><a href="/#/{{$ctrl.post.id}}" class="content__links">{{$ctrl.post.title}}</a></h2>
+    <footer class="line">
+        <ul class="line__list">
+            <li class="line__data"><svg role="img" class="line__icon-left"><use xlink:href="./sprite.svg#icon-clock"></use></svg><time class="text text--post_inform" datetime="2014-01-01T22:58">{{$ctrl.post.date | date : 'HH:mm MMM dd, yyyy'}}</time></li>
+            <li class="line__data"><svg role="img" class="line__icon-left"><use xlink:href="./sprite.svg#icon-footstep"></use></svg><a class="line__link" ng-click="$ctrl.searchByAuthor($ctrl.post.author)">{{$ctrl.post.author}}</a></li>
+        </ul>
+        <ul class="line__list-right">
+            <li class="line__data"><span class="cube"><svg role="img" class="cube__icon-right"><use xlink:href="./sprite.svg#icon-facebook"></use></svg><a class="cube__message" href="#">16</a></span><span class="social__link">Share with facebook</span></li>
+            <li class="line__data"><span class="cube"><svg role="img" class="cube__icon-right"><use xlink:href="./sprite.svg#icon-gplus"></use></svg><a class="cube__message" href="#">7</a></span><span class="social__link">Share with Google Plus</span></li>
+            <li class="line__data"><span class="cube"><svg role="img" class="cube__icon-right"><use xlink:href="./sprite.svg#icon-twitter"></use></svg><a class="cube__message" href="#">15</a></span><span class="social__link">Share with twitter</span></li>
+            <li class="line__data"><span class="cube"><svg role="img" class="cube__icon-right"><use xlink:href="./sprite.svg#icon-vk"></use></svg><a class="cube__message" href="#">16</a></span><span class="social__link">Share with vk</span></li>
+            <li class="line__data"><span class="cube"><svg role="img" class="cube__icon-right"><use xlink:href="./sprite.svg#icon-yaru"></use></svg><a class="cube__message" href="#">1</a></span><span class="social__link">Share with yaru</span></li>
+        </ul>
+    </footer>
+    <p class="content__paragraph">
+        {{$ctrl.post.text | limitTo: $ctrl.limit}}{{($ctrl.isTextLong() && !$ctrl.textShow) ? '...' : ''}}
+    <a href="" ng-click="$ctrl.changeTextView()" ng-show="($ctrl.isTextLong() && !$ctrl.textShow)">Read more ...</a>
+    <a href="" ng-click="$ctrl.changeTextView()" ng-show="($ctrl.isTextLong() && $ctrl.textShow)">Turn</a>
+
+    </p>
+</article>

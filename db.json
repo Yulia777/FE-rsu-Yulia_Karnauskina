@@ -1,0 +1,71 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Blogotitle of blogopost about blogoflowers",
+      "author": "by. E. Hyperraccoon",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "img": "pic1.png",
+      "date": 1476979525975,
+      "tags": [
+        "Lorem",
+        "laborum",
+        "magna",
+        "commodo",
+        "pariatur"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "The clever little bird",
+      "author": "by. E. Hyperraccoon",
+      "text": "A little bird comes and sits under a tree. A big grey cat comes to the tree too. He sees the little bird.  'I'm hungry'- says the cat and comes near the bird. But the little bird is very clever. She sees the cat and jumps into the tree. ",
+      "img": "3.jpg",
+      "date": 1476979525980,
+      "tags": [
+        "bird",
+        "tree",
+        "clever",
+        "cat",
+        "hungry"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Blogotitle about colorful",
+      "author": "by. E. Hyperraccoon",
+      "text": "laborum.",
+      "img": "pic2.png",
+      "date": 1476979525946,
+      "tags": [
+        "laborum"
+      ]
+    },
+    {
+      "title": "limerick Erdogan",
+      "text": "There was a young fellow from Ankara  Who was a terrific wankerer  Till he sowed his wild oats  With the help of a goat  But he didn’t even stop to thankera -24",
+      "author": "by.Erdogan",
+      "tag": "Erdogan",
+      "img": "http://cl.jroo.me/z3/G/T/u/d/a.aaa-Mountain-naturals.jpg",
+      "date": "2016-10-21T12:56:43.765Z",
+      "id": 4,
+      "tags": [
+        "Erdogan"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "title": "About",
+      "symbol": "?",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "id": 2,
+      "title": "Some Information",
+      "symbol": "!",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    }
+  ]
+}

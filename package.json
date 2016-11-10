@@ -1,0 +1,34 @@
+{
+  "name": "task1",
+  "version": "1.0.0",
+  "description": "A Task without mobile adaptivity",
+  "main": "index.js",
+  "devDependencies": {
+    "angular-bootstrap-npm": "^0.14.3",
+    "angular-ui-bootstrap": "^2.2.0",
+    "autoprefixer": "latest",
+    "css-loader": "^0.24.0",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.22.0",
+    "less": "latest",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
+  },
+  "scripts": {
+    "start": "json-server db.json",
+    "test": "run",
+    "build:prefix": "postcss --use autoprefixer less/main.less -o less/main.less",
+    "build:css1": "lessc less/style.less css/style.css",
+    "build:css": "lessc less/style.less css/style.css --autoprefix=\"last 2 versions\""
+  },
+  "author": "Karnaushkina_Julia",
+  "license": "ISC",
+  "dependencies": {
+    "angular-route": "^1.5.8",
+    "json-server": "^0.8.20",
+    "ng-resource": "^1.3.2",
+    "path": "^0.12.7"
+  }
+}

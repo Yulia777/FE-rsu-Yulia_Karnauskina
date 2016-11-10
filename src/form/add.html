@@ -1,0 +1,31 @@
+<div class="col-xs-4 form-class" ng-model="$ctrl.post">
+    <form role="form">
+        <div class="form-group">
+            <label for="inputTitle">Add title</label>
+            <input type="text" class="form-control" placeholder="Text input" id="inputTitle" ng-model="$ctrl.post.title">
+        </div>
+        <div class="form-group">
+            <label for="inputText">Add text</label>
+            <textarea class="form-control" rows="3" id="inputText" ng-model="$ctrl.post.text"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="inputAuthor">Add author</label>
+            <input type="text" class="form-control" placeholder="Text input" id="inputAuthor" ng-model="$ctrl.post.author">
+        </div>
+        <div class="form-group">
+            <label for="inputTag">Add tag</label>
+            <input type="text" class="form-control" placeholder="Text input" id="inputTag" ng-model="$ctrl.post.tag">
+        </div>
+        <div class="form-group">
+            <label for="inputPicture">Add picture</label>
+            <input type="text" class="form-control" placeholder="Text input" id="inputPicture" ng-model="$ctrl.post.img">
+        </div>
+            <button type="submit" class="btn btn-success" ng-click="$ctrl.addPost($ctrl.post)" ng-show="!$ctrl.isNewPost()">Send</button>
+            <button type="submit" class="btn btn-success" ng-click="$ctrl.deletePost()" ng-show="$ctrl.isNewPost()">Delete</button>
+            <button type="submit" class="btn btn-success" ng-click="$ctrl.updatePost($ctrl.post)" ng-show="$ctrl.isNewPost()">Edit</button>
+        <a href="/#/">
+            <button type="button" class="btn btn-success">Back to posts</button>
+        </a>
+    </form>
+</div>
+<div class="col-xs-4"></div>
